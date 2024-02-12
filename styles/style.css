@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --cor-primaria: #00030c;
+    --cor-secundaria: #F9F9F9;
+    --cor-terciaria: #FFFFFF;
+    --cor-quartenaria: #167BF7;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+.banner{
+    background-image: url("../assets/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 8% 0 8% 8%;
+}
+
+.banner__conteudo__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--cor-terciaria);
+    text-align: center;
+    padding: 0 0 5% 0;
+}
+
+.banner__conteudo__combo{
+    width: 50%;
+}
+
+.banner__assinaturas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5% 0 0 0;
+    width: 100%;
+    gap: 1rem;   
+}
+
+.banner__assinaturas__mensalidade{
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    width: 60%;
+    padding: 3%;
+    border-radius: 0.3rem;
+}
+
+.banner__assinaturas__alura-plus{
+    background-color: transparent;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    width: 60%;
+    padding: 3%;
+    border-radius: 0.3rem;
+    border: 1px solid #FFFFFF;
+}
+
+.banner__aviso{
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 3% 0 0 0;
+}
+
+.vantagens{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10% 0 10%;
+    gap: 10rem;
+}
+
+.vantagens__plataformas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vantagens__plataformas__dispositivos{
+    width: 35%;
+    padding: 0 10% 0 0;
+}
+
+.vantagens__plataformas__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.vantagens__plataformas__texto__titulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.vantagens__plataformas__texto__subtitulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.vantagens__combo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vantagens__combo__telas{
+    width: 35%;
+    padding: 0 0 0 10%;
+}
+
+.vantagens__combo__anuncio{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+}
+
+.vantagens__combo__anuncio__titulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.vantagens__combo__anuncio__combo-plus{
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    padding: 3%;
+    border-radius: 0.3rem;
+}
+
+.vantagens__download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vantagens__download__notebook{
+    width: 35%;
+    padding: 0 10% 0 0;
+}
+
+.vantagens__download__anuncio{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.vantagens__download__anuncio__titulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.vantagens__download__anuncio__subtitulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.compatibilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compatibilidade__titulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.compatibilidade__dispositivos{
+    display: flex;
+    gap: 5rem;
+    padding: 5% 0 0 0;
+}
+
+.compatibilidade__dispositivos__titulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 12% 0 1% 0;
+}
+
+.rodape__mapa{
+    display: flex;
+    gap: 2rem;
+}
+
+.rodape__mapa__link{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.rodape__informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 85%;
+}
+
+.rodape__informacoes__copyright{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.rodape__informacoes__endereco{
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+}
