@@ -336,4 +336,44 @@ body{
     .vantagens__combo__anuncio__combo-plus{
         width: 80%;
     }
+
+    .vantagens__download{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .vantagens__download__anuncio{
+        padding: 2%;
+    }
+
+    .vantagens__download__anuncio__titulo{
+        text-align: center;
+    }
+
+    .vantagens__download__anuncio__subtitulo{
+        text-align: center;
+    }
+
+    .compatibilidade{
+        width: 80%;
+    }
+
+    .compatibilidade__titulo{
+        text-align: center;
+    }
+
+    .compatibilidade__dispositivos{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .rodape__mapa{
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .rodape__informacoes{
+        width: 80%;
+    }
 }
