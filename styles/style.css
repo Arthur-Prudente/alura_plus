@@ -277,3 +277,63 @@ body{
     font-size: 0.8rem;
     text-align: center;
 }
+
+@media (max-width: 1300px){
+    .banner{
+        background-size: 100vw;
+        height: auto;
+        padding: 0 0 20% 0;
+    }
+
+    .banner__conteudo{
+        width: 100%;
+        padding: 10% 0 0 0;
+    }
+
+    .banner__aviso{
+        width: 80%;
+        text-align: center;
+    }
+
+    .vantagens{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .vantagens__plataformas{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .vantagens__plataformas__texto{
+        padding: 2%;
+    }
+
+    .vantagens__plataformas__texto__titulo{
+        text-align: center;
+    }
+
+    .vantagens__plataformas__texto__subtitulo{
+        text-align: center;
+    }
+
+    .vantagens__combo{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .vantagens__combo__anuncio{
+        padding: 6%;
+        align-items: center;
+    }
+
+    .vantagens__combo__anuncio__titulo{
+        text-align: center;
+    }
+
+    .vantagens__combo__anuncio__combo-plus{
+        width: 80%;
+    }
+}
